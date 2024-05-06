@@ -1,4 +1,4 @@
-![image](https://github.com/StayStoic/Command_Pattern_goodNINE/assets/131257666/11ccfaec-dd31-4fec-81b3-2b07f0602696)# Command Design Pattern
+# Command Design Pattern
 ![Hình giới thiệu](https://images.viblo.asia/29765288-ec0b-4616-a6bb-c059e7264313.png)
 ## **Giới thiệu**
 
