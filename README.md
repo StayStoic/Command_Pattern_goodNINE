@@ -1,4 +1,5 @@
-# Command Design Pattern
+![image](https://github.com/StayStoic/Command_Pattern_goodNINE/assets/131257666/11ccfaec-dd31-4fec-81b3-2b07f0602696)# Command Design Pattern
+![Hình giới thiệu](https://images.viblo.asia/29765288-ec0b-4616-a6bb-c059e7264313.png)
 ## **Giới thiệu**
 
 *“Encapsulate a resquest as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operation.”*
@@ -20,9 +21,9 @@
     - Không nên để lớp đối tượng **phụ thuộc** cụ thể vào một yêu cầu nào đó
     - Cần đưa ra yêu cầu cho đối tượng mà không cần biết bất cứ gì về hoạt động được yêu cầu cũng như cụ thể nơi nhận yêu cầu.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d18f7e3-0f97-40e4-8aff-4ecd3bbe2b50/bc016cc3-f33d-4e17-9261-d81dc528dcc4/Untitled.png)
+    ![Untitled](https://images.viblo.asia/24df6d69-fb26-45a4-b15d-6aea0eb5e5ac.png)
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d18f7e3-0f97-40e4-8aff-4ecd3bbe2b50/733b55fd-e54b-4542-a518-758f26ec560a/Untitled.png)
+    ![Untitled](https://images.viblo.asia/704b0d85-e456-41b6-8d68-91648f49efc4.png)
     
 
 ## **Ưu và nhược điểm**
@@ -48,7 +49,7 @@
 
 ## Cài đặt Command Pattern như thế nào?
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d18f7e3-0f97-40e4-8aff-4ecd3bbe2b50/db8d34b9-6527-49b5-98d5-ba960dd0ffbd/Untitled.png)
+![Untitled](https://images.viblo.asia/20aac27a-6d1f-44bd-aa9e-cd9d34ac93ed.png)
 
 - Các thành phần trong pattern:
     - **Command**: là một interface hoặc abstract class, chứa một phương thức trừu tượng thực thi (execute) một hành động (operation). Resquest sẽ được đóng gói dưới dạng Command.
@@ -63,7 +64,7 @@
     
     Một hệ thống ngân hàng cung cấp ứng dụng cho khách hàng (client) có thể mở (open) hoặc đóng (close) tài khoản trực tuyến. Hệ thống này được thiết kế theo dạng module, mỗi module sẽ thực hiện một nhiệm vụ riêng của nó, chẳng hạn mở tài khoản (OpenAccount), đóng tài khoản (CloseAccount). Do hệ thống không biết mỗi module sẽ làm gì, nên khi có yêu cầu client (chẳng hạn clickOpenAccount, clickCloseAccount), nó sẽ đóng gói yêu cầu này và gọi module xử lý.
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d18f7e3-0f97-40e4-8aff-4ecd3bbe2b50/10db7275-b8d9-434f-b7c3-0aab36fa8a47/Untitled.png)
+    ![Untitled](https://gpcoder.com/wp-content/uploads/2018/12/design-patterns-command-example1.png)
     
     Ứng dụng của chúng ta bao gồm các lớp xử lý sau:
     
