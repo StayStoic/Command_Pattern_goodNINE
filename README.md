@@ -1,5 +1,4 @@
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d18f7e3-0f97-40e4-8aff-4ecd3bbe2b50/760eac02-bf52-491f-93fc-c508db883fbc/Untitled.png)
-
+# Command Design Pattern
 ## **Giới thiệu**
 
 *“Encapsulate a resquest as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operation.”*
@@ -12,9 +11,9 @@
 
 ## Mục đích ra đời
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d18f7e3-0f97-40e4-8aff-4ecd3bbe2b50/a00c1ade-3d10-46a5-b325-c9e20d5eed53/Untitled.png)
+![Untitled](https://images.viblo.asia/fb74f510-f6fb-456b-9973-686b5bd202d3.png)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/8d18f7e3-0f97-40e4-8aff-4ecd3bbe2b50/1ea8b98b-afc5-470f-b953-14a91a8d771d/Untitled.png)
+![Untitled](https://images.viblo.asia/810ae80b-70cf-4f9a-bc29-ac7055db2adf.png)
 
 - Trong thiết kế hướng đối tượng - OOP, đôi khi chúng ta cần gửi các requests cho các objects mà không cần biết bất cứ điều gì về hoạt động được yêu cầu hoặc người nhận yêu cầu. Chẳng hạn chúng có một ứng dụng văn bản, khi click lên button undo/redo, save, … yêu cầu sẽ được chuyển đến hệ thống xử lý, chúng ta sẽ không thể biết được object nào sẽ nhận xử lý, các nó thực hiện như thế nào. Command Pattern là một pattern được thiết kế cho những ứng dụng như vậy, giúp chúng ta:
     - Tránh các hard-wired (kết nối cứng). Việc triển khai hard-wired vào 1 lớp là không linh hoạt.
